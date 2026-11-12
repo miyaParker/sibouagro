@@ -3,7 +3,7 @@ import { reasons } from "@/lib/why";
 export default function WhyUs() {
   return (
     <section id="why-us" className="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-24">
-      <h2 data-reveal className="text-4xl font-medium sm:text-6xl">Why work with us</h2>
+      <h2 data-reveal className="text-3xl font-medium sm:text-5xl">Why work with us</h2>
       <ul className="mt-12 grid border-t border-green-deep/40 sm:grid-cols-2">
         {reasons.map((r, i) => (
           <li key={r.title} data-reveal style={{ "--d": `${i * 100}ms` } as React.CSSProperties} className="group border-b border-green-deep/40 py-8 sm:pr-10">

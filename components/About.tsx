@@ -4,7 +4,7 @@ export default function About() {
   return (
     <section id="about" className="mx-auto max-w-6xl px-5 pb-16 sm:px-8 sm:pb-24">
       <div data-reveal className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
-        <h2 className="max-w-3xl text-4xl font-medium leading-[1.1] sm:text-6xl">
+        <h2 className="max-w-3xl text-3xl font-medium leading-[1.1] sm:text-5xl">
           Supplying local and export buyers with consistent-quality{" "}
           <span className="text-green-deep">Nigerian produce</span>.
         </h2>

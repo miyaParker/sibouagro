@@ -5,7 +5,7 @@ export default function Products() {
   return (
     <section id="products" className="bg-sand">
       <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-24">
-        <h2 data-reveal className="text-4xl font-medium sm:text-6xl">Our products</h2>
+        <h2 data-reveal className="text-3xl font-medium sm:text-5xl">Our products</h2>
         <p data-reveal style={{ "--d": "100ms" } as React.CSSProperties} className="mt-4 max-w-xl text-lg text-ink/70">
           Current range. More processed and fresh products are on the way.
         </p>
