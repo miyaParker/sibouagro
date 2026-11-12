@@ -4,7 +4,6 @@ import Stats from "@/components/Stats";
 import About from "@/components/About";
 import Products from "@/components/Products";
 import WhyUs from "@/components/WhyUs";
-import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { site } from "@/lib/site";
@@ -14,6 +13,8 @@ const jsonLd = {
   "@type": "Organization",
   name: site.name,
   url: site.url,
+  logo: `${site.url}/logo-horizontal-color.png`,
+  image: `${site.url}/opengraph-image.jpg`,
   description: site.description,
   email: site.email,
   telephone: site.phoneTel,
@@ -35,7 +36,6 @@ export default function Home() {
         <About />
         <Products />
         <WhyUs />
-        <Contact />
       </main>
       <Footer />
       <WhatsAppButton />

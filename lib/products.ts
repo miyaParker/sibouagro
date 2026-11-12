@@ -1,5 +1,4 @@
-// Add a product by adding an object to this array. The cards and the
-// quote-form dropdown both update automatically.
+// Add a product by adding an object to this array. The cards update automatically.
 export type Product = {
   slug: string;
   name: string;

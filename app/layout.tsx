@@ -18,7 +18,7 @@ const neue = localFont({
   ],
 });
 
-export const viewport: Viewport = { themeColor: "#1b4332" };
+export const viewport: Viewport = { themeColor: "#24501a" };
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -35,7 +35,6 @@ export const metadata: Metadata = {
     title: `${site.name} – Corn grits, maize bran and export white yam`,
     description: site.description,
     locale: "en_NG",
-    images: [{ url: "/images/hero.jpg", width: 1800, height: 1200, alt: site.name }],
   },
   twitter: {
     card: "summary_large_image",

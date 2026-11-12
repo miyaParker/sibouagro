@@ -6,11 +6,11 @@ export default function About() {
       <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
         <h2 className="max-w-3xl text-4xl font-medium leading-[1.1] sm:text-6xl">
           Supplying local and export buyers with consistent-quality{" "}
-          <span className="text-green-mid">Nigerian produce</span>.
+          <span className="text-green-deep">Nigerian produce</span>.
         </h2>
         <a
           href="#products"
-          className="self-start rounded-full bg-green-deep px-7 py-3 text-sm font-medium text-white hover:bg-green-mid sm:self-auto"
+          className="self-start rounded-full bg-green-deep px-7 py-3 text-sm font-medium text-white hover:brightness-125 sm:self-auto"
         >
           Our products
         </a>

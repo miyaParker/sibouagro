@@ -10,6 +10,7 @@ export const site = {
   country: "Nigeria",
   phoneDisplay: "+234 912 427 8867",
   phoneTel: "+2349124278867",
+  whatsappMessage: "Hello Sibou Agro, I'd like to request a quote.",
   whatsappNumber: "2349124278867", // digits only, no +
   email: "info@sibouagro.com",
   linkedin: "https://www.linkedin.com/company/your-company-page",

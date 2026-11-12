@@ -35,10 +35,6 @@ export default function Hero() {
         <div className="px-6 pb-6 sm:px-10 sm:pb-8">
           <div className="grid gap-4 sm:grid-cols-2 sm:items-end">
             <p className="text-2xl font-medium sm:text-3xl">Rooted in quality and consistency.</p>
-            <p className="max-w-md text-sm sm:text-base text-white/90 sm:justify-self-end">
-              Corn grits, maize bran and export-grade white yam for food manufacturers, farms and
-              importers, from {site.city}, {site.country}.
-            </p>
           </div>
           <ul className="mt-5 flex flex-wrap gap-2 border-t border-white/50 pt-5 text-sm">
             {tags.map((t) => (
