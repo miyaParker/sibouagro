@@ -30,7 +30,7 @@ export default function Footer() {
       />
 
       <div className="mx-auto max-w-6xl px-5 pt-16 sm:px-8 sm:pt-24">
-        <div className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
+        <div data-reveal className="grid gap-12 lg:grid-cols-[1.1fr_0.9fr] lg:items-start">
           <div>
             <p className="text-sm font-medium uppercase tracking-[0.2em] text-gold">
               Request a quote
@@ -44,7 +44,7 @@ export default function Footer() {
             <div className="mt-8 flex flex-wrap gap-3">
               <a
                 href={`mailto:${site.email}`}
-                className="rounded-full bg-cream px-7 py-3.5 text-sm font-medium text-ink hover:bg-white"
+                className="rounded-full bg-cream px-7 py-3.5 text-sm font-medium text-ink transition duration-200 hover:-translate-y-0.5 hover:bg-white hover:shadow-lg active:translate-y-0 active:scale-[0.97]"
               >
                 Email us
               </a>
@@ -52,7 +52,7 @@ export default function Footer() {
                 href={`https://wa.me/${site.whatsappNumber}?text=${encodeURIComponent(site.whatsappMessage)}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full border border-white/60 px-7 py-3.5 text-sm font-medium hover:bg-white/10"
+                className="rounded-full border border-white/60 px-7 py-3.5 text-sm font-medium transition duration-200 hover:-translate-y-0.5 hover:bg-white/10 active:translate-y-0 active:scale-[0.97]"
               >
                 Message on WhatsApp
               </a>
@@ -65,7 +65,7 @@ export default function Footer() {
                 <li key={r.label} className="py-4 first:pt-0 last:pb-0">
                   <p className="text-sm text-white/60">{r.label}</p>
                   {r.href ? (
-                    <a href={r.href} className="mt-1 block text-xl font-medium hover:text-gold sm:text-2xl">
+                    <a href={r.href} className="mt-1 block text-xl font-medium link-slide hover:text-gold sm:text-2xl">
                       {r.value}
                     </a>
                   ) : (
@@ -77,13 +77,14 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="mt-16 grid gap-10 border-t border-white/15 pt-12 sm:mt-24 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
+        <div data-reveal className="mt-16 grid gap-10 border-t border-white/15 pt-12 sm:mt-24 sm:grid-cols-2 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
             <Image
               src="/logo-horizontal-white.png"
               alt="Sibou Agro Ltd"
               width={1389}
               height={546}
+              sizes="160px"
               className="h-12 w-auto"
             />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-white/70">
@@ -95,7 +96,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2 text-sm text-white/70">
               {nav.map((l) => (
                 <li key={l.href}>
-                  <a href={l.href} className="hover:text-gold">
+                  <a href={l.href} className="link-slide hover:text-gold">
                     {l.label}
                   </a>
                 </li>
@@ -107,7 +108,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-2 text-sm text-white/70">
               {products.map((p) => (
                 <li key={p.slug}>
-                  <a href="#products" className="hover:text-gold">
+                  <a href="#products" className="link-slide hover:text-gold">
                     {p.name}
                   </a>
                 </li>
@@ -122,13 +123,13 @@ export default function Footer() {
                   href={`https://wa.me/${site.whatsappNumber}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-gold"
+                  className="link-slide hover:text-gold"
                 >
                   WhatsApp
                 </a>
               </li>
               <li>
-                <a href={site.linkedin} target="_blank" rel="noopener noreferrer" className="hover:text-gold">
+                <a href={site.linkedin} target="_blank" rel="noopener noreferrer" className="link-slide hover:text-gold">
                   LinkedIn
                 </a>
               </li>

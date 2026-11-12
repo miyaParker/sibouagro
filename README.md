@@ -14,7 +14,7 @@ npm run dev                  # http://localhost:3000
 
 | Variable | Purpose |
 |---|---|
-| `NEXT_PUBLIC_SITE_URL` | Full site URL, used for SEO, sitemap and Open Graph |
+| `NEXT_PUBLIC_SITE_URL` | Optional. Full site URL for SEO, sitemap and share images. Set it only after your custom domain is live; otherwise the Vercel URL is used |
 
 ## Things to edit
 

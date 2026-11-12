@@ -3,7 +3,7 @@ Replace with your own product photos when you have them.
 
 - hero.jpg – Pexels photo 14371701 (farmer walking through a maize field)
 - corn-grits.jpg – Pexels photo 15148531 (woman lifting milled maize meal from a basin)
-- maize-bran.jpg – Pexels photo 29118168 (workers processing a grain pile)
+- maize-bran.jpg – Pexels photo 19286641 (grain drying on a tarp)
 - white-yam.jpg – Pexels photo 34143558 (yams in a wheelbarrow, Kings Studio)
 - about.jpg – Pexels photo 15148672 (woman sieving maize meal)
 

@@ -22,7 +22,7 @@ export default function WhatsAppButton() {
       aria-label="Chat with Sibou Agro on WhatsApp"
       aria-hidden={!visible}
       tabIndex={visible ? 0 : -1}
-      className={`fixed bottom-4 right-4 z-50 flex w-48 flex-col gap-4 rounded-3xl bg-white/40 p-4 text-ink shadow-xl ring-1 ring-white/70 backdrop-blur-xl transition duration-300 hover:bg-white/55 motion-reduce:transition-none sm:bottom-6 sm:right-6 ${
+      className={`fixed bottom-4 right-4 z-50 flex w-48 flex-col gap-4 rounded-3xl bg-white/40 p-4 text-ink shadow-xl ring-1 ring-white/70 backdrop-blur-xl transition duration-300 hover:-translate-y-1 hover:bg-white/55 hover:shadow-2xl motion-reduce:transition-none sm:bottom-6 sm:right-6 ${
         visible ? "translate-y-0 opacity-100" : "pointer-events-none translate-y-4 opacity-0"
       }`}
     >
@@ -47,8 +47,8 @@ export default function WhatsAppButton() {
           />
         </span>
       </span>
-      <span className="rounded-full bg-green-deep px-4 py-2.5 text-center text-sm font-medium text-white">
-        Start a chat →
+      <span className="group/cta rounded-full bg-green-deep px-4 py-2.5 text-center text-sm font-medium text-white transition duration-200 active:scale-95">
+        Start a chat <span aria-hidden="true" className="inline-block transition-transform duration-200 group-hover/cta:translate-x-1">→</span>
       </span>
     </a>
   );

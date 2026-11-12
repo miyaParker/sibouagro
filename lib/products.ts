@@ -24,7 +24,7 @@ export const products: Product[] = [
     slug: "maize-bran",
     name: "Maize Bran",
     image: "/images/maize-bran.jpg",
-    imageAlt: "Workers processing a large pile of grain beside stacked sacks",
+    imageAlt: "Sacks of dried grain laid out on a tarpaulin beside a brick building",
     description:
       "A by-product of our maize processing, dry and clean, suitable as a feed ingredient.",
     uses: ["Poultry and livestock feed", "Fish feed", "Feed mill blending"],

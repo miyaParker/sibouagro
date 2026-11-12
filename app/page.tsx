@@ -4,6 +4,7 @@ import Stats from "@/components/Stats";
 import About from "@/components/About";
 import Products from "@/components/Products";
 import WhyUs from "@/components/WhyUs";
+import ScrollReveal from "@/components/ScrollReveal";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import { site } from "@/lib/site";
@@ -39,6 +40,7 @@ export default function Home() {
       </main>
       <Footer />
       <WhatsAppButton />
+      <ScrollReveal />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, "\\u003c") }}
